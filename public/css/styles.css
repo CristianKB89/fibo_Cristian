@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+}
+img {
+  width: 100%;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  color: red;
+}
+
+@media screen and (min-width: 1366px) {
+  body {
+    margin: 50px;
+    color: blue;
+  }
+}
